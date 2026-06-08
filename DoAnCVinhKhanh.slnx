@@ -1,9 +1,15 @@
 <Solution>
-  <Project Path="Admin/Admin.csproj" />
-  <Project Path="API/Api.csproj" />
-  <Project Path="Application/Application.csproj" />
-  <Project Path="Contracts/Contracts.csproj" />
-  <Project Path="Domain/Domain.csproj" />
-  <Project Path="Infrastructure/Infrastructure.csproj" />
-  <Project Path="Mobile/Mobile.csproj" />
+  <Folder Name="/Backend/">
+    <Project Path="API/Api.csproj" />
+    <Project Path="Application/Application.csproj" />
+    <Project Path="Domain/Domain.csproj" />
+    <Project Path="Infrastructure/Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/Frontend/">
+    <Project Path="Admin/Admin.csproj" />
+    <Project Path="Mobile/Mobile.csproj" />
+  </Folder>
+  <Folder Name="/Shared/">
+    <Project Path="Contracts/Contracts.csproj" />
+  </Folder>
 </Solution>
